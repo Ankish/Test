@@ -12,4 +12,14 @@ public class DummyClass extends BaseActivity {
         super.onCreate(savedInstanceState);
         //branch one commit
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
