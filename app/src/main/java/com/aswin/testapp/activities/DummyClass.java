@@ -10,5 +10,6 @@ public class DummyClass extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //branch one commit
     }
 }
