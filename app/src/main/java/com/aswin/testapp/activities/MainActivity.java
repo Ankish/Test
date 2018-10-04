@@ -15,6 +15,16 @@ public class MainActivity extends BaseActivity {
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+ //jbjbgvg
+    @Override
     protected void onStart() {
         super.onStart();
     }

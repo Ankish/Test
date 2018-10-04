@@ -22,4 +22,14 @@ public class DummyClass extends BaseActivity {
     protected void onResume() {
         super.onResume();
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
